@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>lkc生日快乐！！</title>
+  <style>
+  #animate {
+  position: fixed;
+  top:0px;
+  left:0px;
+}
+  #bg{
+    position:fixed;
+    top:0px;
+    left:0px;
+    opacity:0.5;
+  }
+
+.zhengwen{
+  position:relative;
+  left:285px;
+  font-size:1.5vw;
+  
+}
+.shine{
+  position:relative;
+  left:225px;
+  font-size:4vw; /*设置字体大小*/
+  color:#FFFFFF; /*设置文字颜色*/
+  text-shadow:0 0 10px hotpink,
+                   0 0 20px hotpink,
+                   0 0 30px hotpink,
+                   0 0 40px #91bef0,
+                   0 0 70px #91bef0,
+                   0 0 80px #0000FF,
+                   0 0 100px #0000FF,
+                   0 0 150px #91bef0;
+  }
+.subtitle{
+  color:hotpink;
+  font-size:35px; /*设置字体大小*/
+  font-weight:800; /*设置字体粗细*/
+  text-shadow:1px 0px lightskyblue, 1px 2px skyblue, 2px 3px lightskyblue, 4px 2px skyblue,4px 4px lightskyblue;
+}
+
+.footer {
+  color:#91bef0;
+  text-shadow:0.3vw 0.3vw violet;
+  text-align: center;
+  opacity:0.9;
+}
+
+#lovetime{
+  color: white;
+  text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#sumday{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px hotpink, 0 0 5px pink;
+}
+
+#sumsecond{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px hotpink, 0 0 5px pink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  position:fixed;
+  top:9vw;
+  opacity:0.5;
+}
+li{
+  height:130px;
+  text-align:center;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: violet;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id ="animate"><img src ="secret/xyx.gif" width="200px" height="200px"></div>
+
+<script>
+{//邪眼笑.gif
+  var elem = document.getElementById("animate");   
+  var pos1 = 1,pos2 = 1,flag1=0,flag2=0;//pos1横坐标，pos2纵坐标，flag1真上，flag2真左
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos1 == 600) 
+    {
+      flag1=1;
+    } 
+    if (pos1 == 0) 
+    {
+      flag1=0;
+    } 
+    if (pos2 == 1336) 
+    {
+      flag2=1;
+    } 
+    if (pos2 == 0) 
+    {
+      flag2=0;
+    } 
+    if (flag1 == 0){ pos1++;}
+    if (flag1 == 1){ pos1--;}
+    if (flag2 == 0){ pos2++;}
+    if (flag2 == 1){ pos2--;}
+    elem.style.top = pos1 + "px"; 
+    elem.style.left = pos2 + "px"; 
+  }
+}
+</script>
+
+<img id="bg" src="secret/sakura.gif" />
+  <script>
+  {//背景gif
+    document.getElementById("bg").width = screen.availWidth;
+    document.getElementById("bg").height = screen.availHeight;
+  }
+  </script>
+
+
+<!导航栏>
+<ul>
+  <li><a class="active" href="#home">生日祝福</a></li>
+  <li><a href="#cake">云吃蛋糕</a></li>
+  <li><a href="#ques">爱的问题</a></li>
+  <li><a href="#ltime">相爱时间</a></li>
+</ul>
+
+<div class="zhengwen">
+
+<div >
+  <h1 class="shine">陆恺骋，生日快乐！！</h1>
+</div>
+
+<a name="home" class="subtitle">生日祝福</a>
+<br />
+<p>祝新一岁的陆恺骋：<br /><br />
+椎骨、胸骨、颅骨、骶骨，骨骨生威；
+<br />
+背肌、胸肌、颈肌、躯干肌，块块有力；
+<br />
+消化、呼吸、循环、泌尿、生殖、运动、神经、内分泌，八大系统团结友爱；
+<br />
+静脉、动脉，六脉调和；
+<br />
+体循环、肺循环、血液循环、体液循环，环环通畅；
+<br />
+右心房、右心室、左心房、左心室，心心向荣；
+<br />
+中枢神经系统、周围神经系统、躯体神经、内脏神经，协调运作、神清气爽。 
+<br /><br />
+祝福从延髓出发，沿迷走神经穿过颈静脉孔，出颅绕左锁骨下动脉，越主动脉经左肺根，达第六胸椎左前方那个叫<br />
+心脏的角落汹涌而出：lkc生日快乐！空气分子振动通过鼓膜，顺着听小骨，通过内耳毛细胞点燃蜗螺旋神经节内<br />
+的双极细胞，沿着蜗神经经蜗神经腹核和背核经蜗神经腹核和背核经斜方体并交叉上行，经下丘，内侧膝状体，经<br />
+听辐射，通过内囊到达颞叶颞横回，让lkc听到了我的祝声。夜幕中的光线打到视网膜，经视锥细胞和视杆细胞，双<br />
+极细胞，来到节细胞，生日快乐通过视神经，视交叉，视束，外侧膝状体，视辐射止于距状沟周围皮质，绚丽的焰<br />
+火展现在lkc脑内。距状沟周围皮质的神经元将焰火经角回，wernicke区，弓状束，来到了broca区，经中央前回，<br />
+通过皮质脑干束，经内囊膝部下至脑干，到达面神经核下和舌下神经核，控制着舌，大声疾呼：陆恺骋，生日快乐！<br /><br />
+仅仅这样还不够，我还要祝陆恺骋新的一岁：<br><br />
+电势 磁势 引力势 事事得势<br />
+重力 弹力 摩擦力 处处给力<br />
+匀速 加速 超音速 致富加速<br />
+动能 势能 机械能 万事皆能<br />
+质心 重心 几何心 天天顺心<br />
+强电 弱电 交流电 秒秒来电<br />
+重子 轻子 中微子 龙门贵子<br />
+虚像 实像 等大像 人人福像<br />
+叉积 点积 内外积 财运累积<br />
+积分 差分 偏微分 门门满分<br />
+动量 冲量 作用量 前途无量<br />
+恒星 行星 脉冲星 满天福星<br />
+阴极 阳极 南北极 登峰造极<br />
+电场 磁场 规范场 宏大气场<br />
+有机 无机 永动机 无限商机<br />
+自转 公转 螺旋转 行行玩转<br />
+平面 曲面 抛物面 有里有面<br />
+散度 旋度 自由度 大方有度<br />
+牛顿 莱顿 哈密顿 大吃一顿<br />
+三维 四维 十一维 精准思维<br />
+气流 湍流 交直流 一代风流<br />
+直角 锐角 倒三角 全做主角<br />
+固态 液态 双稳态 万方仪态<br />
+氢气 氦气 电子气 扬眉吐气<br />
+固体 气体 半导体 处处得体<br />
+---------------------------------------------------------------------------------------------------------------<br /><br />
+
+<a name="cake" class="subtitle">云吃蛋糕</a>
+<br />
+过生日是不可能少得了吃蛋糕的，所以为了给陆恺骋庆生，我特意买了5个蛋糕！<br />
+但是由于疫情原因寄不到lkc那里，所以很遗憾啊！很遗憾！<br />
+我只好吃之前拍了照片，然后流着眼泪替陆恺骋吃掉了。<br />
+为了证明我真的买了5个蛋糕，下面有照片为证：<br /><br />
+cake1:<img src="secret/cake1.jpg" width="500px" height="300px" /><br /><br />
+cake2:<img src="secret/cake2.jpg" width="500px" height="300px" /><br /><br />
+cake3:<img src="secret/cake3.jpg" width="500px" height="300px" /><br /><br />
+cake4:<img src="secret/cake4.jpg" width="500px" height="300px" /><br /><br />
+cake5:<img src="secret/cake5.jpg" width="500px" height="300px" /><br /><br />
+---------------------------------------------------------------------------------------------------------------<br /><br />
+
+<a name="ques" class="subtitle">爱的问题</a>
+<p>请输入你重要的人的名字：</p>
+<input id="lname" type="text">
+<button type="button" onclick="subanswer()">提交</button>
+<button type="button" onclick="advice1()">提示1</button>
+<button type="button" onclick="advice2()">提示2</button>
+<button type="button" onclick="advice3()">提示3</button>
+<br /><br />
+<img id="lanswer" />
+<br />
+
+<script>
+function advice1(){
+  alert("这有什么好提示的肯定是橙色的啊");
+}
+function advice2(){
+  alert("你不会想填tjc吧");
+}
+function advice3(){
+  alert("首字母缩写，最后的字母要写两次");
+}
+function subanswer() {
+  var graph, x, flag=0;
+  graph = document.getElementById("lanswer");
+  x = document.getElementById("lname").value;
+  if(x == "cqq") 
+  {
+    graph.src="secret/cq.jpg";
+    flag=1;
+    alert("恭喜你，说出了自己的心声！！");
+  }
+  if(x == "tjc")
+  {
+    graph.src="secret/tjc.jpg";
+    flag=2;
+    alert("你还真的填了tjc，，但tjc真的不是正确答案！再来一次吧");
+  }
+  if(flag == 0)
+  {
+    var ran=Math.floor(Math.random() * 3);
+    switch (ran)
+    {
+      case 0:graph.src="secret/case0.jpg";break;
+      case 1:graph.src="secret/case1.jpg";break;
+      case 2:graph.src="secret/case2.jpg";break;
+    }
+    alert("里在干神魔，再给你一次机会");
+  }
+}
+</script>
+<br />
+---------------------------------------------------------------------------------------------------------------<br /><br />
+
+<a name="ltime" class="subtitle">相爱时间</a>
+<br />
+<p>在最后，善良的Nicholas还帮健忘的陆恺骋算了他喜欢cq的时间，由于爱还在持续，显然这个时间也是在走动的：</p>
+<h1 id="lovetime"></h1>
+<p><br /><br /></p>
+<h1 id="sumday"></h1>
+<p><br /></p>
+<h1 id="sumsecond"></h1>
+<script>
+var myvar=setInterval(mytimer, 1000);
+function mytimer(){
+  var d =new Date();
+  var lyear=d.getFullYear()-2020;
+  var lmonth=d.getMonth();
+  var lday=d.getDate()-1;
+  var lhour=d.getHours();
+  var lminute=d.getMinutes();
+  var lsecond=d.getSeconds();
+  str="爱的时间： ";
+  var sum1=lyear*365+lmonth*30+lday;
+  var sum2=((sum1*24+lhour)*60+lminute)*60+lsecond;
+  document.getElementById("lovetime").innerHTML=str+lyear+"年 "+lmonth+"月 "+lday+"日 "+lhour+"时 "+lminute+"分 "+lsecond+"秒";
+  document.getElementById("sumday").innerHTML="共 "+sum1+" 天";
+  document.getElementById("sumsecond").innerHTML="共 "+sum2+" 秒";
+}
+</script>
+<br />
+---------------------------------------------------------------------------------------------------------------<br /><br />
+</p>
+</div>
+
+<div class="footer">
+  <h1>本html由Nicholas Burkhardt全权编写<br />参考网站：w3school<br />允许转载，二创<br />如转载，二创需标注作者，Nicholas Burkhardt版权所有</h1>
+</div>
+
+</body>
+
+</html>
