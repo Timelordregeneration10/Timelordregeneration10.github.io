@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+/* 按钮悬停时 */
+button:hover {
+    /* 鼠标小手 */
+    cursor: pointer;
+    /* 透明度 */
+    opacity: .8;
+    border: 1px solid #ff7496;
+}
+
+.backgroundImage {
+    opacity: 0.5;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.backgroundImage2 {
+    opacity: 0.2;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    width:100%;
+    height: 100%;
+}
+
+.mainPage {
+    width: 80vw;
+    height: 43vw;
+    position: absolute;
+    top: 4vw;
+    left: 11vw;
+    background-color: white;
+    border-radius: 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 2px 1px 19px black;
+}
+
+.mainPage::-webkit-scrollbar {
+    width:0vw;
+}
+
+.login-box{
+    position: absolute;
+    top:1vw;
+    right:1vw;
+    font-size: 1.5vw;
+    cursor:pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-box:hover{
+    border: 0.1vw solid black;
+}
+
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    opacity: 0.3;
+}
+
+.backgroundsec {
+    width: 33.3333%;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: rotate 900s linear infinite;
+
+}
+
+.backgroundsec:nth-child(2) {
+    animation: rotate2 900s linear infinite;
+}
+
+.backgroundsec div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./image/1.jpg);
+    background-size: cover;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateX(-360deg);
+    }
+}

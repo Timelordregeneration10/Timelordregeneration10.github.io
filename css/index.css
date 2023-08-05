@@ -1,0 +1,174 @@
+
+section {
+    height: 100%;
+    position: relative;
+    /* color: rgba(255, 255, 255, .8); */
+    color:white;
+    /* 设置字体 */
+    font-family: 'modern_no._20regular',
+        serif;
+    /* 文字阴影 */
+    text-shadow: -4px -4px 5px rgb(236, 238, 207), 6px 6px violet;
+    /* text-align: center; */
+    /* 弹性布局 */
+    display: flex;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+}
+
+#subRemTitle{
+    color:#91bef0;
+}
+
+section h1{
+    /* line-height: 15vw; */
+    position:absolute;
+    top:5vw;
+    left:5vw;
+    font-size: 11vw;
+}
+
+section h3{
+    position:absolute;
+    bottom:5vw;
+    right:3vw;
+    font-size: 4vw;
+}
+
+section h4{
+    position:absolute;
+    bottom:8vw;
+    left:6vw;
+    font-size: 3vw;
+    text-align: left;
+}
+
+#scrollCheck{
+    font-size: 1.6vw;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.2vw 0.2vw 0.3vw white;
+    position: absolute;
+    bottom: 1vw;
+    left:30vw;
+}
+
+.img {
+    overflow: hidden;
+    /* 背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 背景图片位置：居中 */
+    background-position: center;
+    /* 背景图片固定 */
+    background-attachment: fixed;
+    background-size: cover;
+    /* 禁止用户误选中 */
+    user-select: none;
+
+}
+
+
+#img-one {
+    background-image: url(../image/rem00.jpg);
+    background-size: cover;
+}
+
+#img-two {
+    background-image: url(../image/rem01.jpg);
+}
+
+.content-one {
+    background: url(../image/rem1.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.content-two {
+    background: url(../image/rem2.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+.content-three {
+    background: url(../image/rem3.jpg) no-repeat fixed right;
+    background-size: cover;
+}
+
+.content-four {
+    background: url(../image/rem4.jpg) no-repeat fixed right;
+    background-size: cover;
+}
+
+.content-five {
+    background: url(../image/rem5.jpg) no-repeat fixed right;
+    background-size: cover;
+}
+
+.content-six {
+    background: url(../image/rem6.jpg) no-repeat fixed right;
+    background-size: cover;
+}
+
+.text-box {
+    width: 100%;
+    height: 50%;
+    /* 绝对定位 */
+    position: absolute;
+    bottom: 25%;
+    /* 文字居中 */
+    text-align: center;
+    background-color: rgba(0, 0, 0, .3);
+    /* 旋转中心 */
+    transform-origin: center bottom;
+    /* 扭曲斜切 */
+    transform: skew(0, -8deg);
+
+}
+
+.text-box .cnt {
+    display: inline-block;
+    text-align: right;
+    margin: 6vw 0 0vw;
+    width: 90%;
+    max-width: 64.65vw;
+    transform-origin: right bottom;
+    transform: skew(0, 8deg);
+}
+
+.cnt h2 {
+    margin-top: 6.5vw;
+    font-size: 4vw;
+    font-family: 'modern_no._20regular',
+        serif;
+    text-shadow: 2px 2px 0px #323232, -4px -4px 6px #91bef0, 4px 4px lightgoldenrodyellow;
+    letter-spacing: 0.3em;
+    /* 大写字母 */
+    color: #f2eeee;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.cnt p {
+    font-size: 1.8vw;
+    line-height: 1.7;
+    margin-bottom: 0.65vw;
+    color: #fff;
+}
+
+.cnt a.btn {
+    font-size: 1.6vw;
+    font-family: 'modern_no._20regular',
+        serif;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 0px 0px black;
+    line-height: 2.8;
+    display: inline-block;
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0 1.3vw;
+}
+
+.cnt a.btn:hover{
+    border: 0.1px solid black;
+}
